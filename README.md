@@ -26,6 +26,6 @@ Laravel MVC arhitektūra nodrošina skaidru struktūru lietojumprogrammas izstr�
 
 
 ORM (Object-Relational Mapping) ir rīks, kas ļauj programmētājiem strādāt ar datu bāzēm, izmantojot objektus, nevis tieši rakstot SQL vaicājumus. Tas atvieglo datu bāzes darbību un padara kodu vieglāk lasāmu un uzturējamu.
-
+```
 $lietotaji = User::where('reiting', '>', 4)->get();
-
+```
